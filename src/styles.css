@@ -1,4 +1,28 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 2px dotted #00ffff;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+  background-color: white;
+  font: 1.25rem san-serif;
+  max-width: 50rem;
+}
+
+@media screen and (min-width: 620px) {
+  body {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+}
+
+ul {
+  list-style-type: none;
 }
